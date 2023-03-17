@@ -1030,8 +1030,10 @@
 // var fruits = ['banana','apple','mango','orange','strawberry']
 // for(var i = 0; i < fruits.length; i++){
 //     document.write(fruits[i]+"</br>")
-//     document.write("Element at index of "+fruits.findIndex(i)+" is "+fruits[i]+"</br>")
 // }
+// fruits.forEach((ind_values,ind_num)=>{
+//     document.write("Element at index of "+ind_num+" is "+ind_values+"</br>");
+// })
 
 // task_06
 
@@ -1070,19 +1072,127 @@
 //     document.write("<b>"+i+"k ,</b> ")
 // }
 
-// Task_07 
+// // Task_07  Not complete yet
 
-var arr = ["cake","apple pie","cookie","chips","patties"]
-var user = prompt("Enter any thing")
-for(var i of arr){
-    if(user == i){
-        document.write(i+" is available  in our bakery")
-        break
-    }
-    else if(user != i){
-        document.write("We are sorry "+user+" is not available in our bakery")
-    }
-}
+// var arr = ["cake","apple pie","cookie","chips","patties"]
+// var user = prompt("Welcome to ABC Bakery . What do you want to order sir/ma'am")
+// arr.forEach((value,ind)=>{
+//     if(user == value){
+//         console.log(value+" is available at index "+ind+" in our bakery")
+//     }
+//     if(user != value){
+//         console.log("We are sorry ."+value+" is not available in our bakery")
+//     }
+// })
+
+
+/* var arr = [24,53,78,91,12].sort((a,b) => a-b)
+ console.log(arr)*/
+
+
+// task_08
+
+// var arr = [24,53,78,91,12]
+// var large = 0
+// for(var i=0; i<arr.length; i++){
+// if(large < arr[i]){
+//      large = arr[i]
+   
+// }
+// }
+// document.write("Array items :"+arr+"</br>")
+// document.write("The largest number is "+large)
+
+// Task_09
+// var small_Arr = [24,53,78,91,12]
+// var small = small_Arr.reduce((sml,lrg)=>Math.min(sml,lrg))
+// document.write("Array itmes "+small_Arr+"</br>")
+// document.write("The smallest number is"+small)
+
+// Task_10
+
+// for(var i = 5; i <=100;i+=5){
+// document.write(i+" ")
+// }
+
+
+
+// STRING METHODS   21-25
+
+//Task_01
+
+// var frName = prompt("Please enter your frist name!")
+// var lsName = prompt("Please enter your last frist name!")
+// var fulName = frName+" "+lsName
+// document.write("Welcome to JavaScript "+fulName)
+
+// Task_02
+
+// var user = prompt("Enter your favourite mobile model!")
+// document.write("Length of string :"+user.length)
+
+
+// task_03
+
+// var countryName = "Pakistani"
+// for(var i of countryName){
+//     if(i == 'n'){
+//         document.write("Index of 'n' : "+countryName.indexOf(i))
+//     }
+// }
+
+// task_04 pending
+
+// var str = 'Hello world'
+// for(var i of str){
+//     if(i == 'l'){
+//         document.write("Last index of 'l' :"+str.lastIndexOf(i))
+//     }
+
+// }
+
+// Task_05
+
+// var str = 'Pakistan'
+// document.write("String :" +str+'</br>')
+// document.write("Character at index 3 :"+str[3])
+
+// Task_06
+
+// var frName = prompt("Please Enter your name here!")
+// var lsName = prompt("Please Enter your last name!")
+// document.write(frName.concat(" "+lsName))
+
+// Task_07 pending
+
+// var city = "Hyderabad"
+// city.substring("Hyder")
+// console.log(city)
+
+// Task_08 pending
+
+
+// Task_09
+
+// var numStr = "472"
+// document.write("Value :"+numStr+"</br>Type :"+typeof(numStr)+"</br>Value :"+numStr+"</br>Type :"+typeof(Number(numStr)))
+
+// Task_10
+
+// var user = prompt("Enter anything else I show you in capital letter it")
+// document.write(user.toUpperCase())
+
+// Task_11
+
+
+// var user = prompt("Enter anything else I show you in capital letter it")
+// var frLetter = user.slice(0,1).toUpperCase()
+// var lstLetter = user.slice(1)
+// console.log(frLetter+lstLetter)
+
+
+
+
 
 
 
