@@ -1191,9 +1191,182 @@
 // console.log(frLetter+lstLetter)
 
 
+// Task_12 pending
+
+// var num = 35.36;
+// var num1 = num.toString()
+// document.write(num1.split(".").join(""))
 
 
+// Task_13 pending
 
+// var userInp = prompt("Enter some data about yourself")
+// if(userInp.charCodeAt == 33){
+//     console.log("dot is present")
+// }
+
+// Task_14 not complete yet
+
+// var arr = ['cake','apple pie','cookie','chips','patties']
+// var user = prompt("Welcome to ABC Bakery . What do you want to order sir/ma'am?")
+// arr.forEach((val,ind)=>{
+// if(user == val){
+// document.write(val+" is available at "+ind+" in our Bakery")
+// }
+// if(user != val){
+//     document.write("We are sorry ."+val+" is not available in our Bakery")   
+// }
+// })
+
+// Task_15 pending
+
+// var userPassword = prompt("Enter your Password must contain a-z , A-Z , 0-9")
+
+// Task_16 pending
+
+// var university  = "University of Karachi"
+// for( var i = 0; i < university.length ;i++){
+//     document.write(university[i]+"</br>")
+
+// } 
+
+//Task_17  pending
+
+// var user = prompt("Enter anything I will gave you its last character")
+// console.log()
+
+// Task_18 pending
+
+// var str = "The quick brown fox jumps over the lazy dog"
+// var count = 0
+
+ 
+// MATH METHODS 25-30
+
+// var user = Number(prompt("Enter positive integer number"))
+// // a 
+// console.log(user)
+// console.log(typeof(user))
+
+// b
+
+// var user = Number(prompt("Enter positive integer number"))
+// console.log(Math.round(user))
+
+//c
+
+// var user = Number(prompt("Enter positive integer number"))
+// console.log(Math.floor(user))
+
+// d
+
+// var user = Number(prompt("Enter positive integer number"))
+// console.log(Math.ceil(user))
+
+
+// Task_02
+
+//a
+
+// var user = Number(prompt("Enter a negative floating point value"))
+// console.log("Number : "+user)
+// console.log(typeof(user))
+
+//b
+
+// var user = Number(prompt("Enter a negative floating point value"))
+// console.log(Math.round("round off value :"))
+
+// c
+
+// var user = Number(prompt("Enter a negative floating point value"))
+// console.log(MATH.floor("floor value :"+user))
+
+// d
+
+// var user = Number(prompt("Enter a negative floating point value"))
+// console.log(Math.ceil("ceil value :"+user))
+
+
+// Task_03
+
+// var user = prompt("Enter negative integer value")
+// console.log("The absolute value of "+user+" is "+Math.abs(user))
+
+// Task_04
+
+// var num = ((Math.random()*6).toFixed())
+// if(num == 0){
+//     num = num+1
+//     console.log(Math.floor(num)) 
+// }
+// else{
+//     console.log(num)
+// }
+
+// Task_05
+
+// var coin = ((Math.random()*2).toFixed())
+// if(coin == 0){
+//      coin = coin+1
+//     console.log(Math.floor(coin)+" \n random coin value : Tails") 
+// }
+// else{
+//     console.log(coin+ "\n random coin value : Heads")
+// }
+
+// Task_06
+
+// var randomNum = (Math.random()*100).toFixed()
+// if(randomNum == 0){
+//   randomNum = randomNum+1
+//   console.log("random number between 1 and 100 : "+randomNum)
+// }
+// else{
+//     console.log("random number between 1 and 100 : "+randomNum)
+// }
+
+// Task_07
+
+// var user = parseFloat(prompt("Please enter your Weight"))
+// document.write("The weight of user is " +user+ " kilograms")
+
+// Task_08
+
+// var secretNumber = (Math.random()*10).toFixed()
+// var userGuess = prompt("Enter a number between 1 and 10")
+// if(secretNumber == 0){
+//     secretNumber = secretNumber+1
+// }
+// if(userGuess == secretNumber){
+//     alert("congratulation you guess right")
+
+// }
+// else{
+// alert("Try again!")
+// }
+
+
+// DATE METHODS 30-34
+
+// Task_01
+
+// var toDay = new Date()
+// document.write(toDay)
+
+// Task_02
+
+// var months = ['January','Feburary','March','April','May','June','July','August','September','October','November','December']
+// var findMonth = new Date()
+// var month = findMonth.getMonth()
+// var currentMonth = months[month]
+// alert("Current month : "+currentMonth)
+
+
+// Task_03
+
+// var toDay = new Date()
+// var day = toDay.getDay().
 
 
 
